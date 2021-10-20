@@ -9,8 +9,10 @@ description = 'Example of SonarQube Scanner for Gradle Usage'
 version = '1.0'
 
 sonarqube {
-    properties {
-        property 'sonar.projectName', 'Example of SonarQube Scanner for Gradle Usage'
+     properties {
+        property "sonar.projectKey", "Surendar-Suyamprakasam_sonar-scanning-examples"
+        property "sonar.organization", "soanar-test-project"
+        property "sonar.host.url", "https://sonarcloud.io"
     }
 }
 
